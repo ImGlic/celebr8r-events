@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
-import { GuestList } from '@/components/GuestList';
+import GuestList from '@/components/GuestList';
 import AddGuestDialog from '@/components/AddGuestDialog';
 import { Button } from '@/components/ui/button';
 import { UserPlus } from 'lucide-react';
