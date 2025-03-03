@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { EventType } from '@/utils/types';
@@ -21,7 +20,7 @@ const Index = () => {
       toast.error("Por favor, selecione um tipo de evento para continuar.");
       return;
     }
-    navigate('/finance');
+    navigate('/event-config', { state: { eventType: selectedEvent } });
   };
 
   return (

@@ -11,6 +11,7 @@ export interface Event {
   name: string;
   type: EventType;
   date: Date;
+  time: string;
   location: string;
   description?: string;
   coverImage?: string;
