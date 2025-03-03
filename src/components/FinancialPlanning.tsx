@@ -41,8 +41,8 @@ const sampleExpenses: FinanceItem[] = [
     amount: 1500, 
     category: '1', 
     paid: false, 
-    dueDate: new Date('2023-12-10'), 
-    createdAt: new Date('2023-11-01') 
+    dueDate: new Date('2025-12-10'), 
+    createdAt: new Date('2025-11-01') 
   },
   { 
     id: '2', 
@@ -50,7 +50,7 @@ const sampleExpenses: FinanceItem[] = [
     amount: 2000, 
     category: '2', 
     paid: true, 
-    createdAt: new Date('2023-11-02') 
+    createdAt: new Date('2025-11-02') 
   },
   { 
     id: '3', 
@@ -58,7 +58,7 @@ const sampleExpenses: FinanceItem[] = [
     amount: 800, 
     category: '3', 
     paid: false, 
-    createdAt: new Date('2023-11-03') 
+    createdAt: new Date('2025-11-03') 
   },
 ];
 

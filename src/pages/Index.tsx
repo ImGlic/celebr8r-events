@@ -59,7 +59,7 @@ const Index = () => {
       </main>
       
       <footer className="py-6 text-center text-sm text-muted-foreground">
-        <p>© 2023 celebr8r. Todos os direitos reservados.</p>
+        <p>© 2025 celebr8r. Todos os direitos reservados.</p>
       </footer>
     </div>
   );
