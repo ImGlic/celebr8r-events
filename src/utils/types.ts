@@ -27,6 +27,8 @@ export interface Guest {
   rsvp?: boolean;
   role?: 'guest' | 'moderator' | 'organizer';
   notes?: string;
+  createdAt: Date;
+  eventType: EventType;
 }
 
 // Finance Types
